@@ -1,0 +1,27 @@
+h1 {
+  margin-top: 14px;
+  margin-bottom: 8px;
+}
+
+body {
+  text-align: center;
+}
+
+.app {
+  text-align: left;
+  display: inline-block;
+}
+
+.pickupDay {
+  padding: 10px 3px 3px;
+}
+
+.vendor {
+  font-size: 120%;
+  line-height: 160%;
+}
+
+#moreButton {
+  margin-top: 12px;
+  margin-bottom: 6px;
+}

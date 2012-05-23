@@ -1,0 +1,23 @@
+<header>
+<h1>Gravy Train</h1>
+</header>
+<select id="distance">
+  <option disabled selected>How far will you go?</option>
+  <option value="Infinity">
+    The Distance (&infin;)
+  </option>
+  <option value="19312" {{^distanceEnabled}}disabled{{/distanceEnabled}}>
+    A Joyride (a dozen miles)
+  </option>
+  <option value="1609" {{^distanceEnabled}}disabled{{/distanceEnabled}}>
+    A Stone's Throw (a mile)
+  </option>
+<select>
+
+<div class="pickupDays">
+</div>
+
+<button id="moreButton" class="btn btn-info">
+  I'm still hungry
+  <i class="icon-chevron-down icon-white"></i>
+</button>
